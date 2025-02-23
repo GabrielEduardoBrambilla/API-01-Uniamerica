@@ -1,19 +1,17 @@
-package controller;
-import entity.Aluno;
+package com.brambilla.escola.controller;
+
+import com.brambilla.escola.repository.AlunoRepository;
+import com.brambilla.escola.entity.Aluno;
 import jakarta.validation.Valid;
-import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import repository.AlunoRepository;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
 @RequestMapping("/alunos")
 @Validated
 public class AlunoController {
-
-
-
 
         private final AlunoRepository alunoRepository;
 

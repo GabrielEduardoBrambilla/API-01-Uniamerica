@@ -1,4 +1,4 @@
-package entity;
+package com.brambilla.escola.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

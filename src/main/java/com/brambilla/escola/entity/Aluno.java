@@ -1,4 +1,4 @@
-package entity;
+package com.brambilla.escola.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,7 +24,9 @@ public class Aluno {
             message = "Erro minimo aceito são duas palavras ")
     private String nome;
     @CPF
-    private String cpf;
+    private String Cpf;
     @Pattern(regexp = "^\\+?[1-9]\\d{1,14}$", message = "Numero invalido")
     private String telefone;
+    private boolean cadastroCompleto;
+
 }

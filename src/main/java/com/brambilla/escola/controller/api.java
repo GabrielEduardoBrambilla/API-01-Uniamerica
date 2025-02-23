@@ -1,4 +1,4 @@
-package controller;
+package com.brambilla.escola.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
